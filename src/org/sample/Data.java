@@ -1,8 +1,17 @@
 package org.sample;
 
 public class Data {
+	
+	private void empId() {
+		
+		System.out.println("1234");
+	}
 
 	public static void main(String[] args) {
+		
+		Data d = new Data();
+		
+		d.empId();
 		
 	}
 }
